@@ -111,6 +111,8 @@ body {
 }
 @media (max-width: 480px) {
   body {
+    background: #fff;
+    color: #4d247d;
     height: 20vh;
   }
   .timer-wrapper {
