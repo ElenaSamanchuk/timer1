@@ -9,7 +9,7 @@ html {
 }
 body {
   width: 100vw;
-  height: 100vh;
+  height: 40vh;
   overflow: hidden;
   padding: 1vw;
   background: #4d247d;
@@ -117,9 +117,26 @@ body {
     height: 60%;
   }
   .label {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   .timer-title {
-    font-size: 1.7vw;
+    font-size: 3vw;
+    margin-bottom: 5vw;
   }
+  .timer-wrapper {
+  width: 90%;
+}
+.segment {
+ 
+  width: 20vw;
+  height: 20vw;
+}
+.digit {
+  height: 15vw;
+  width: 15vw;
+  font-size: 7vw;
+}
+.digit span {
+  width: 5vw;
+}
 }
