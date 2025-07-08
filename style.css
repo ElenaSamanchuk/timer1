@@ -111,19 +111,24 @@ body {
 }
 @media (max-width: 480px) {
   body {
-    background: #fff;
-    color: #4d247d;
     height: 20vh;
+    color: #4d247d;
+    background: #fff;
   }
   .timer-wrapper {
     height: 60%;
   }
   .label {
     font-size: 3vw;
+    color: #4d247d;
+    font-weight: 600;
   }
   .timer-title {
-    font-size: 4vw;
+    width: 80vw;
+    font-size: 5vw;
+    font-weight: 700;
     margin-bottom: 5vw;
+    color: #4d247d;
   }
   .timer-wrapper {
   width: 90%;
@@ -134,9 +139,11 @@ body {
   height: 20vw;
 }
 .digit {
+   background: #4e247d25;
   height: 15vw;
   width: 15vw;
   font-size: 7vw;
+  color: #4d247d;
 }
 .digit span {
   width: 5vw;
